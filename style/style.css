@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: center;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+.dashbord-menu-container{
+    display: flex;
+}
+
+.menu-container{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.menu-container i{
+    padding: 5px;
+}
+
+button{
+    padding: 5px;
+    cursor: pointer;
+}
