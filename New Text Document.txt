@@ -1,0 +1,9 @@
+
+
+
+git init
+git add .
+git commit -m "html file added"
+git branch -M main
+git remote add origin https://github.com/shohagroy/mini-inventory.git
+git push -u origin main
